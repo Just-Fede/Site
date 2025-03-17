@@ -49,7 +49,7 @@
       <?php
 
         SESSION_START();
-        $conn = mysqli_connect('localhost', 'CERILLI', 'Scirocco2023', 'Cerilli_db1');
+        $conn = mysqli_connect('localhost', '###', '###', '###');
         $_SESSION['conn'] = $conn;
 
         $_SESSION['utente'] = $_POST['utente'];
