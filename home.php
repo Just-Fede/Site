@@ -35,7 +35,7 @@
 
             /* ********* PER VEDERE GLI ERRORI  *********** */
 
-            $conn = mysqli_connect('localhost', 'CERILLI', 'Scirocco2023', 'Cerilli_db1');
+            $conn = mysqli_connect('localhost', '###', '###', '###');
             $utente=$_SESSION['utente'];
     
         ?>
