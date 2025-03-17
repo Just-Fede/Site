@@ -52,7 +52,7 @@
 
                 <?php
                     $tab="giochi_txt_1";
-                    $conn = mysqli_connect('localhost', 'CERILLI', 'Scirocco2023', 'Cerilli_db1');
+                    $conn = mysqli_connect('localhost', '###', '###', '###');
 
                     $sql="SELECT * FROM $tab ORDER BY Titolo";
 
