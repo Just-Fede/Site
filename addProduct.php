@@ -64,7 +64,7 @@
                         echo "<br>";
 
                         SESSION_START();
-                        $conn = mysqli_connect('localhost', $adminN, $adminP, 'Cerilli_db1');
+                        $conn = mysqli_connect('localhost', $adminN, $adminP, '###');
 
                         echo "<br>";
                         
