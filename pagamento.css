@@ -1,0 +1,150 @@
+nav.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    /* Altri stili di design */
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 16px;
+    gap: 8px;
+    height: 40px;
+    width: 128px;
+    border: none;
+    background: #056bfa27;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .lable {
+    margin-top: 1px;
+    font-size: 19px;
+    line-height: 22px;
+    color: #056DFA;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background: #056bfa49;
+  }
+  
+  .button:hover .svg-icon {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(-8deg);
+    }
+  
+    50% {
+      transform: rotate(0deg);
+    }
+  
+    75% {
+      transform: rotate(8deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    height: 36px;
+    width: 120px;
+    border: none;
+    background: #5e41de33;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .lable {
+    line-height: 20px;
+    font-size: 17px;
+    color: #5D41DE;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background: #5e41de4d;
+  }
+  
+  .button:hover .svg-icon {
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }  
+
+  /*--------------*/
+
+  .Btn {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    color: white;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  
+  .svgIcon {
+    width: 16px;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .Btn::before {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    content: "";
+    background-color: royalblue;
+    border-radius: 50%;
+    left: -100%;
+    top: 0;
+    transition-duration: .3s;
+    mix-blend-mode: hard-light;
+  }
+  
+  .Btn:hover::before {
+    transition-duration: .3s;
+    transform: translate(100%,-50%);
+    border-radius: 0;
+  }
+  
+  .Btn:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }
