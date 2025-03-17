@@ -24,7 +24,7 @@
             $cognome = $_SESSION['cognome'] = $_POST['cognome'];   
             $eta = $_SESSION['eta'] = $_POST['dataNascita'];   
 
-            $conn = mysqli_connect('localhost', 'CERILLI', 'Scirocco2023', 'Cerilli_db1');
+            $conn = mysqli_connect('localhost', '###', '###', '###');
             $_SESSION['conn'] = $conn;
 
             $sql= "SELECT * FROM email WHERE email ='$utente' ";
