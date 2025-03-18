@@ -2,6 +2,6 @@
 
 What is Easy Software?
 
-I have made this site as my final project in my last year of high school, this site emulates an online game shop.
+I have made this site as my final project in my last year of high school, this site emulates an online games shop.
 
 (I have no longer access to the database, but I'd like to share it as a template for everybody.)
